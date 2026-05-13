@@ -53,7 +53,6 @@ The workflow runs automatically on a scheduled basis and delivers professional A
 
 ##  Workflow Architecture
 
-```text
 Schedule Trigger
       ↓
 Fetch RSS Feeds (AI + Tech)
@@ -65,3 +64,63 @@ Google Gemini AI Summarization
 Generate Structured News Brief
       ↓
 Send Email via Gmail
+
+
+## RSS Sources Used
+AI Business RSS Feed
+TechCrunch RSS Feed
+📬 Output Format
+
+## The generated email contains:
+
+AI NEWS
+Latest AI updates
+Short AI-generated summaries
+Article links
+TECHNOLOGY UPDATES
+Major technology news
+Concise summaries
+Direct source links
+
+
+## ▶️ How to Run
+
+1. Install n8n
+npm install n8n -g
+
+2. Start n8n
+n8n
+
+3. Import Workflow
+Open n8n dashboard
+Import the workflow JSON file
+Configure:
+Google Gemini API Key
+Gmail Credentials
+
+4. Activate Workflow
+
+Enable the workflow to start receiving automated daily summaries.
+
+ ## Required Credentials 
+Google Gemini API Key
+Gmail OAuth Credentials
+
+ ## Future Improvements
+Multi-language news summaries
+Telegram/Slack notifications
+Personalized news categories
+AI trend analysis dashboard
+Voice-based AI news assistant
+
+## Author
+
+Babulal Hawaldar
+TY CSE Student
+MIT ADT University
+
+## ⭐ If You Like This Project
+
+Give this repository a ⭐ on GitHub!
+```text
+
